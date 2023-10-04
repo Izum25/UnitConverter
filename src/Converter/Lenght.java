@@ -3,7 +3,7 @@ package Converter;
 import java.util.Scanner;
 
 public class Lenght {
-    private static void convertMetersToFeet(Scanner scanner) {
+    public static void convertMetersToFeet(Scanner scanner) {
         System.out.print("Введите длину в метрах: ");
         double meters = scanner.nextDouble();
 
